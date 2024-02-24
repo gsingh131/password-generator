@@ -31,7 +31,7 @@ body {
 #password-div{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:flex-start;
     font-family: "Inter", sans-serif;
     color: #10B981
 }
@@ -51,7 +51,9 @@ body {
 hr{
     color: #2F3E53;
     margin-top: 30px;
+    margin-left: 0px;
     width: 550px;
+    
 }
 
 #password-el-one{
@@ -61,6 +63,7 @@ hr{
     height: 19px;
     border-radius: 6px;
     text-align: center;
+    margin-left: 0px;
     margin-right: 20px; 
 }
 
@@ -71,6 +74,7 @@ hr{
     border-radius: 6px;
     text-align: center;
     height: 19px;
+    margin-left: 0px;
 }
 
 
