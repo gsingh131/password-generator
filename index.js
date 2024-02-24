@@ -3,6 +3,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let passwordOne = document.getElementById("password-el-one")
 let passwordTwo = document.getElementById("password-el-two")
+let passwordBtn = document.getElementById("password-btn")
 
 function generatePasswords(){
     passwordOne.textContent = ""
@@ -17,6 +18,8 @@ function generatePasswords(){
         passwordTwo.textContent += randomPassword
     }
 }   
+
+passwordBtn.addEventListener("click", generatePasswords());
 
 
 
